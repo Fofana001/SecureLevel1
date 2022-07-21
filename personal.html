@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta ttp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- CONTAINER -->
+    <div class="container">
+        <!-- RIGHT -->
+        <div class="right">
+            <ul>
+                <li><a href="#"><span class="num" style="background-color: greenyellow;">01</span> personal information</a></li>
+                <li><a href=""><span class="num">02</span> connect bank account</a></li>
+                <li><a href=""><span class="num">03</span> set financial goals</a></li>
+            </ul>
+        </div>
+        <!-- LEFT -->
+        <div class="left">
+            <h1>personal information</h1>
+            <p>please enter your information and proceed to the next step so we can build your accounts</p>
+            <div>
+                <!-- FORM -->
+                <form action="" method="">
+                    <div class="name">
+                        <div>
+                            <fieldset>
+                                <legend>First Name</legend>
+                                <input type="text" name="firstN" placeholder="First Name">
+                            </fieldset>
+                        </div>
+                        <div>
+                            <fieldset>
+                                <legend>Last Name</legend>
+                                <input type="text" name="lastN" placeholder="Last Name">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Your Email</legend>
+                            <input type="email" name="mail" placeholder="example@email.com">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Phone Number</legend>
+                            <input type="text" name="tel" placeholder="+1 888-999-777">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label>birth date:</label>
+                        <div class="date">
+                            <input type="text" name="MM" placeholder="MM" pattern="[0-9]{2}" title="Entrer le mois sous la forme 01">
+                            <i class="fa-solid fa-calendar-day"></i>
+                            <input type="text" name="DD" placeholder="DD" pattern="[0-9]{2}" title="Entrer le jour sous la forme 01">
+                            <i class="fa-solid fa-calendar-day"></i>
+                            <input type="text" name="YYYY" placeholder="YYYY" pattern="[0-9]{4}" title="Entrer l'annee sous la forme 2000">
+                            <i class="fa-solid fa-calendar-day"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <input type="text" name="ssn" placeholder="SSN">
+                    </div>
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kit F-A -->
+    <script src="https://kit.fontawesome.com/faf616dc65.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

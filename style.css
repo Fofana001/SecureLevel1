@@ -1,0 +1,172 @@
+/* Design Global */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(59, 63, 161);
+    background: linear-gradient( 145deg, rgba(59, 63, 161, 1) 0%, rgba(78, 185, 207, 1) 100%);
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 15px auto;
+}
+
+
+/* Design de Right  */
+
+.right {
+    background-color: #231352;
+    border-radius: 15px 0px 0px 15px;
+    width: 40%;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px auto;
+    border-bottom: 2px solid gray;
+}
+
+ul li a {
+    display: block;
+    padding: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+ul li a span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+ul li a:hover span {
+    background-color: greenyellow;
+}
+
+
+/* Design de Left */
+
+.left {
+    background-color: #ffffff;
+    border-radius: 0px 15px 15px 0px;
+    padding: 60px 30px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+p {
+    width: 75%;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Design du formulaire */
+
+form {
+    width: 85%;
+    margin: auto;
+}
+
+form div {
+    margin: 15px 0px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name div {
+    width: 45%;
+}
+
+.name fieldset input {
+    padding: 10px 100px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+fieldset {
+    height: 60px;
+}
+
+label {
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+
+input[name="tel"],
+input[name="mail"] {
+    padding: 10px 450px 10px 10px;
+    border: none;
+    outline: none;
+}
+
+.date input {
+    border: 2px solid gray;
+    padding: 15px 0px 15px 15px;
+    margin-right: 15px;
+}
+
+input[name="MM"],
+input[name="DD"] {
+    width: 100px;
+}
+
+input[name="YYYY"] {
+    width: 125px;
+}
+
+.date i {
+    position: relative;
+    left: -45px;
+    cursor: pointer;
+}
+
+input[name="ssn"] {
+    padding: 10px 450px 10px 10px;
+    border: 2px solid gray;
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    display: block;
+    float: right;
+    height: 75px;
+    width: 75px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 50%;
+    color: greenyellow;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+}
